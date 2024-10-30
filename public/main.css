@@ -1,0 +1,48 @@
+
+.container{
+    width: 1408px;
+    margin: 0 auto;
+}
+.menu{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+    color: #252525;
+    font-weight: bold;
+}
+
+nav ul li {
+    cursor: pointer;
+    padding: 0.25rem 0;
+    position: relative;
+}
+
+nav ul li:hover {
+    color: #3EED8B;
+}
+
+nav ul li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #0A9949;
+    height: 0.19rem;
+    width: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li:hover::after {
+    /* width: 0.875rem; */
+    width: 100%;
+
+}
+
+.bg-header{
+    background: url('./img/banner.png') no-repeat;
+}
