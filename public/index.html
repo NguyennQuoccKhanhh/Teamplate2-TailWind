@@ -15,18 +15,19 @@
     <link rel="stylesheet" href="../public/output.css">
     <link rel="stylesheet" href="../public/main.css">
     <script src="./main.js" type="text/javascript" async></script>
+
 </head>
 
 <body>
-    <section id="root" class="root bg-header text-base mx-auto px-4 h-full">
-        <div class="container flex flex-col justify-center py-[1.3125rem]">
+    <section id="root" class="root font-Lato bg-header text-base mx-auto relative z-50 h-full">
+        <div class="container pt-[1.3125rem]">
             <header class="menu flex items-center">
                 <a class="mr-[4.875rem]" href="">
-                    <img src="../public/img/logo.jpg" alt="">
+                    <img src="../public/img/logo1.png" alt="">
                 </a>
                 <nav class="">
                     <ul id="hover-responsive-topmenu"
-                        class="hidden lg:flex lg:items-center lg:justify-end lg:gap-8 text-[#252525] font-bold">
+                        class="hidden lg:flex lg:items-center lg:justify-end lg:gap-4 text-[#252525] font-bold">
                         <li>
                             <a href="#">Giới thiệu</a>
                         </li>
@@ -38,37 +39,214 @@
                         <li><a href="#">Hình ảnh & Video</a></li>
                     </ul>
                 </nav>
-                <div class="">
-                    <button
-                        class="hidden lg:flex bg-[#E57709] px-3 py-[0.625rem] rounded-full text-white font-semibold shadow-md hover:shadow-lg transition-shadow">
-                        <i class="fa-solid fa-phone mr-2 text-lg"></i>
-                        Gọi 1900 1806
-                    </button>
-                </div>
+                <button
+                    class="hidden lg:flex bg-[#E57709] px-3 ml-8 pt-[0.625rem] pb-[0.6875rem] items-center rounded-[1.25rem] text-white font-bold shadow-md shadow-[#b3967d] hover:shadow-lg transition-shadow">
+                    <i class="fa-solid fa-phone text-[#E57709] mr-2 p-1 bg-white rounded-full "></i>
+                    Gọi 1900 1806
+                </button>
                 <div class="lg:hidden">
                     <i id="toggle-hover-responsive-topmenu-icon" class="fa-solid fa-bars"></i>
                 </div>
             </header>
-            <div class="w-full h-full lg:w-1/2 lg:p-0">
-                <h1 class="font-bold text-[2rem] lg:text-[3.5rem] leading-tight lg:leading-snug">Dịch vụ Khám bệnh tại
-                    nhà
-                    An tâm chẳng lo ngại đường xa</h1>
-                <p class="mt-4 text-lg">Bệnh viện Đa khoa Phương Đông triển khai dịch vụ khám bệnh tại nhà giúp các gia
-                    đình có con
-                    nhỏ, người cao tuổi, khó đi lại... được hưởng sự chăm sóc y tế cao cấp, an toàn, hiệu quả.
-                </p>
-                <button
-                    class="flex items-center justify-center group px-6 py-[0.688rem] border-2 border-orange-500 text-orange-500 font-semibold rounded-full hover:bg-orange-500 hover:text-white transition-colors">
-                    <ion-icon name="newspaper-outline"
-                        class="text-[#E57709] mr-2 text-lg group-hover:text-white transition-colors"></ion-icon>
-                    Đăng Ký Tư Vấn
-                </button>
+            <div class="flex justify-between items-center">
+                <!-- <div class="w-full h-full lg:w-[48.0625rem] lg:mt-[11.1875rem] lg:mb-[16.1875rem]"> -->
+                <div class="w-full h-full lg:w-1/2">
+                    <p class="font-bold mb-[1.5rem] text-[2rem] lg:text-[3.5rem] leading-tight lg:leading-snug">Dịch vụ
+                        Khám bệnh tại
+                        nhà
+                        An tâm chẳng lo ngại đường xa</p>
+                    <p class="mb-[3rem] text-[#454545]">Bệnh viện Đa khoa Phương Đông triển khai dịch vụ khám bệnh tại
+                        nhà giúp các gia
+                        đình có con
+                        nhỏ, người cao tuổi, khó đi lại... được hưởng sự chăm sóc y tế cao cấp, an toàn, hiệu quả.
+                    </p>
+                    <button
+                        class="flex items-center justify-center group px-6 py-[0.688rem] border-2 border-[#E57709] text-[#E57709] font-semibold rounded-[1.4375rem] shadow-md shadow-[#E57709] hover:shadow-lg hover:shadow-[#E57709] hover:bg-[#E57709] hover:text-white transition-colors">
+                        <ion-icon name="newspaper-outline"
+                            class="text-[#E57709] mr-2 text-lg group-hover:text-white transition-colors"></ion-icon>
+                        Đăng Ký Tư Vấn
+                    </button>
+                </div>
+                <div class="w-1/2 z-50">
+                    <img src="./img/banner2.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="root" class="root font-Lato text-base mt-[3.5rem] relative">
+        <div class="flex">
+            <div class="w-5/6 h-full flex justify-between items-center">
+                <div class="mr-14">
+                    <img src="./img/Group 10009.png" alt="">
+                </div>
+                <div class="w-1/2 leading-tight lg:leading-snug">
+                    <div class="mb-2 flex items-center">
+                        <div class="h-[1px] w-[4.3125rem] bg-[#3EED8B] mr-3"></div>
+                        <div class="text-sm font-bold text-[#3EED8B] uppercase">Giới Thiệu</div>
+                    </div>
+                    <p class="text-[2.375rem] font-bold mb-6">Tạo ra tâm lý thoải mái, hỗ trợ điều trị tích cực cho
+                        người
+                        bệnh</p>
+                    <p class="font-normal text-[#454545]">Dịch vụ khám bệnh tại nhà có thể áp dụng với mọi đối tượng
+                        người bệnh, đặc
+                        biệt tiện lợi đối với
+                        những người gặp khó khăn khi di chuyển, người già neo đơn, người khuyết tật, gia đình có trẻ
+                        nhỏ… <br><br>
+                        Trẻ nhỏ, cũng như người già, là đối tượng rất dễ mắc bệnh do hệ miễn dịch
+                        chưa hoàn thiện, sức
+                        đề kháng kém. Nhiều cha mẹ e ngại việc đưa trẻ đi khám chữa bệnh ở bệnh viện, trạm xá đông người
+                        vì sợ lây nhiễm chéo. Giờ đây, với dịch vụ khám tại nhà, cha mẹ và bé không cần chịu đựng tình
+                        trạng quá tải, đợi chờ để thăm khám hay mất nhiều thời gian và công sức di chuyển để chăm bé.
+                        <br><br>
+
+                        Người cao tuổi dễ mắc các bệnh về cơ xương khớp, huyết áp, tim mạch, tiểu
+                        đường.... Đây là những
+                        bệnh khó điều trị khỏi dứt điểm mà chỉ có thể kiểm soát, phải thường xuyên theo dõi và chăm sóc.
+                        Dịch vụ khám bệnh tại nhà sẽ giúp các gia đình chăm sóc người già ngay tại nơi ở là giải pháp y
+                        tế tiện lợi, tiết kiệm thời gian, xử trí các tình huống bất ngờ một cách kịp thời và nhanh
+                        chóng.
+                    </p>
+                    <div class="flex mt-10">
+                        <button
+                            class="flex items-center justify-center group px-6 py-[0.6875rem] bg-[#E57709] text-white font-semibold rounded-[1.4375rem] mr-5">
+                            <ion-icon name="newspaper-outline" class="text-white mr-2 text-lg"></ion-icon>
+                            Đăng Ký Tư Vấn
+                        </button>
+                        <button
+                            class="flex items-center justify-center group px-6 py-[0.6875rem] bg-[#17AD5B] text-white font-semibold rounded-[1.4375rem]">
+                            <ion-icon name="call-outline" class="text-white mr-2 text-lg"></ion-icon>
+                            Gọi cho chúng tôi
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute -top-full right-0">
+            <img src="./img/banner3.png" alt="">
+        </div>
+        <div class="absolute -top-10 right-0">
+            <img src="./img/Group.png" alt="">
+        </div>
+        <div class="absolute right-28 -bottom-[10rem] ">
+            <img src="./img/vongtron1.png" alt="">
+        </div>
+        <div class="absolute top-[5.375rem] left-[44.1875rem]">
+            <img src="./img/vongtron2.png" alt="">
+        </div>
+    </section>
+    <section id="root" class="root font-Lato text-base mt-[9.6875rem] relative">
+        <div class="flex justify-end">
+            <div class="w-5/6 h-full flex justify-between items-center">
+                <div class="w-1/2 flex flex-col leading-tight lg:leading-snug">
+                    <div class="flex items-center">
+                        <div class="h-[1px] w-[4.3125rem] bg-[#3EED8B] mr-3"></div>
+                        <div class="text-sm font-bold text-[#3EED8B] uppercase">Ưu điểm</div>
+                    </div>
+                    <p class="text-[2.375rem] font-bold">Vì sao khách hàng nên lựa chọn dịch vụ <br>
+                        Khám bệnh tại nhà của Bệnh viện Phương Đông?</p>
+                    <div class="flex gap-10 mt-[3.5rem]">
+                        <div class="">
+                            <div class="text-[#454545]">
+                                <img src="./img/Group 9459.png" alt="">
+                                <p>Đội ngũ bác sĩ giàu y đức</p>
+                                <p>Đội ngũ bác sĩ khám sàng lọc có trình độ và chuyên môn cao, giàu kinh nghiệm, tư vấn
+                                    tận tình</p>
+                            </div>
+                            <div class="text-[#454545] mt-[3.5rem]">
+                                <img src="./img/Group 9448.png" alt="">
+                                <p>Cảm giác thư thái, bình yên</p>
+                                <p>Không gian bệnh viện theo mô hình khách sạn hiện đại, khuôn viên rộng gần 10ha với
+                                    hàng vạn cây xanh</p>
+                            </div>
+                        </div>
+                        <div class="mt-[7.5rem]">
+                            <div class="text-[#454545]">
+                                <img src="./img/Group 9447.png" alt="">
+                                <p>Chất lượng dịch vụ hàng đầu</p>
+                                <p>Trang bị đầy đủ phương tiện y tế cùng ekip cấp cứu luôn túc trực giúp theo dõi và xử
+                                    trí kịp thời các trường hợp</p>
+                            </div>
+                            <div class="text-[#454545] mt-[3.5rem]">
+                                <img src="./img/Group 9450.png" alt="">
+                                <p>Chi phí hợp lý, tiết kiệm</p>
+                                <p>Xây dựng đa dạng gói khám với chi phí hợp lý, hỗ trợ trả góp qua thẻ tín dụng 0% lãi
+                                    suất khi mua trọn gói. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/2">
+                    <img src="./img/Group 9458.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="absolute left-0 top-24">
+            <img src="./img/Rectangle 6628.png" alt="">
+        </div>
+        <div class="absolute left-0 top-80">
+            <img src="./img/Vector.png" alt="">
+        </div>
+        <div class="absolute left-1/4">
+            <img src="./img/Union.png" alt="">
+        </div>
+    </section>
+    <section id="root" class="root font-Lato text-base mt-[9rem]">
+        <div class="flex justify-end">
+            <div class="w-5/6 h-full flex justify-between items-center">
+                <div class="w-1/3 flex flex-col leading-tight lg:leading-snug mr-[3.5rem]">
+                    <div class="flex items-center mb-2">
+                        <div class="h-[1px] w-[4.3125rem] bg-[#3EED8B] mr-3"></div>
+                        <div class="text-sm font-bold text-[#3EED8B] uppercase">Ưu điểm</div>
+                    </div>
+                    <p class="text-[2.375rem] font-bold mb-6">Hình ảnh khách hàng sử dụng
+                        dịch vụ Khám bệnh tại nhà</p>
+                    <p class="text-[#454545] font-normal mb-10">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, nec morbi mauris, turpis
+                        fringilla condimentum urna sagittis est. Id tortor odio posuere a cursus netus massa. Tellus
+                        etiam nisl pretium feugiat nulla. Pulvinar nisl et suspendisse velit ornare sed dolor, convallis
+                        dolor. Et, dignissim amet sed orci at amet id nulla mauris. Sagittis turpis eget mauris massa
+                        congue in rutrum vel. Augue est nunc a id quis mattis. Lorem ipsum dolor sit amet, consectetur.
+                    </p>
+                    <div class="">
+                        <button
+                            class="flex items-center justify-center group px-6 py-[0.6875rem] bg-[#E57709] text-white font-semibold rounded-[1.4375rem] mr-5">
+                            <ion-icon name="newspaper-outline" class="text-white mr-2 text-lg"></ion-icon>
+                            Đăng Ký Tư Vấn
+                        </button>
+                    </div>
+                </div>
+                <div class="w-2/3">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">Slide 1</div>
+                            <div class="swiper-slide">Slide 2</div>
+                            <div class="swiper-slide">Slide 3</div>
+                            <div class="swiper-slide">Slide 4</div>
+                            <div class="swiper-slide">Slide 5</div>
+                            <div class="swiper-slide">Slide 6</div>
+                            <div class="swiper-slide">Slide 7</div>
+                            <div class="swiper-slide">Slide 8</div>
+                            <div class="swiper-slide">Slide 9</div>
+                            <div class="swiper-slide">Slide 1</div>
+                            <div class="swiper-slide">Slide 2</div>
+                            <div class="swiper-slide">Slide 3</div>
+                            <div class="swiper-slide">Slide 4</div>
+                            <div class="swiper-slide">Slide 5</div>
+                            <div class="swiper-slide">Slide 6</div>
+                            <div class="swiper-slide">Slide 7</div>
+                            <div class="swiper-slide">Slide 8</div>
+                            <div class="swiper-slide">Slide 9</div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-        <main></main>
-        <footer></footer>
-    
+    <footer></footer>
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 </html>
