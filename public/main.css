@@ -43,10 +43,11 @@ nav ul li:hover::after {
     background: url('./img/banner.png') no-repeat;
 }
 
-
-.bgr-bs{
-    background: url('./img/Group 10020.png') no-repeat;
+.bg-content1{
+    background: url('./img/Group 10019.png') no-repeat;
 }
+
+
 
 
 /* Swiper */
