@@ -11,7 +11,7 @@ document.addEventListener('click', (e) => {
     }
 })
 
-var swiper = new Swiper(".mySwiper", {
+var gridSwiper  = new Swiper(".gridSwiper ", {
     slidesPerView: 3,     
     grid: {
         rows: 3,              
@@ -25,4 +25,29 @@ var swiper = new Swiper(".mySwiper", {
         el: ".swiper-pagination",
         clickable: true,
     },
+});
+
+var swiper = new Swiper(".singleSwiper", {
+    slidesPerView: 1,
+    pagination: {
+        el: ".swiper-pagination",
+    },
+    navigation: {
+        nextEl: '.docterNext2',
+        prevEl: '.docterPrev2',
+    },
+});
+
+
+const threeSwiper = new Swiper(".threeSwiper", {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.docterNext3',
+        prevEl: '.docterPrev3',
+    }
 });
